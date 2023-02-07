@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+*, *::before, *::after {margin: 0; padding: 0; box-sizing: inherit;}
+html { scroll-behavior: smooth;}
+
+body { background-color: rgb(195, 126, 126);}
+
+/* HEADER */
+#topheader {
+  background-color: rgb(165, 162, 162);
+  position: sticky;
+  top: 0;
+  padding: 10px;
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.478))
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header > h1,
+header > p {
+  color: rgb(93, 27, 27);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header > h1 {
+  font-size: calc(30px + 2vw);
+  font-weight: 700;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* NAV */
+nav > button {
+  padding: 10px 30px;
+  border-radius: 4px;
+}
+
+nav > button:first-child {
+  color: rgb(57, 87, 57);
+  font-size: 15px;
+}
+
+nav > button:nth-child(2) {
+  color: rgb(137, 2, 2);
+  font-size: 15px;
+}
+
+/* Listing */
+div > section {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-.App-link {
-  color: #61dafb;
+/* Listing Card */
+.card {
+  flex: 1 0 250px;
+  padding: 10px;
+  margin: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card img {
+  width: 30%;
+}
+
+.card h3 {
+  font-weight: 700;
+}
+
+details {
+  margin-top: 15px;
+  transition: 0.3s;
 }
