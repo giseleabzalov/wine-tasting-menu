@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/giseleabzalov/wine-tasting-menu/static/css/main.f47583a0.css",
+    "main.js": "/giseleabzalov/wine-tasting-menu/static/js/main.fcfd3eea.js",
+    "index.html": "/giseleabzalov/wine-tasting-menu/index.html",
+    "main.f47583a0.css.map": "/giseleabzalov/wine-tasting-menu/static/css/main.f47583a0.css.map",
+    "main.fcfd3eea.js.map": "/giseleabzalov/wine-tasting-menu/static/js/main.fcfd3eea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f47583a0.css",
+    "static/js/main.fcfd3eea.js"
+  ]
+}
